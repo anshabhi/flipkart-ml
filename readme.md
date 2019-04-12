@@ -34,7 +34,7 @@ Disadvantages:
 - Sometimes, the result could be actually overfitted, as its possible that one of the 3 model generates the largest but wrong bounding box.
 
 
-The entire model takes about 20 minutes to generate results on my PC, with 8 GB DDR4 RAM and 2.3 Ghz Intel I5 quad core processor.  
+The entire model takes about 20 minutes to generate results on my PC, for a daatset of around 14000 images, with 8 GB DDR4 RAM and 2.3 Ghz Intel I5 quad core processor.  
 
 We decided against using a Machine Learning Algorithm, such as Convolution Neural Networks, as I won't be able to efficiently implement them with the processing
 power available with me. We frequently got memory errors while trying to implement such a ML method.
